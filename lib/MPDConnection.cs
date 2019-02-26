@@ -1,6 +1,5 @@
 if($Pref::MPD::PingInterval $= "") { $Pref::MPD::PingInterval = 59; }
 
-%this.connected = false;
 $MPD::Version = "";
 
 function initMPDConnection(%addr) {
